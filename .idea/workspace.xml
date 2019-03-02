@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2317f29f-bb64-4b69-bf9d-915a2cdb8c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/googleImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/East Saint Louis IL/1. collinsville_avenue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getWeather.py" beforeDir="false" afterPath="$PROJECT_DIR$/getWeather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/roadMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/roadMap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +20,34 @@
     <session id="570360760">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="6" />
-          <entry key="py" value="7" />
+          <entry key="gif" value="1" />
+          <entry key="jpg" value="30" />
+          <entry key="png" value="1" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="6" />
-          <entry key="Python" value="7" />
+          <entry key="Image" value="32" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3564" />
+          <entry key="py" value="4115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3564" />
+          <entry key="Python" value="4115" />
         </counts>
       </usages-collector>
     </session>
@@ -47,21 +55,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/googleImages.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
-                <marker date="1551561279913" expanded="true" signature="105:106" ph="..." />
+                <marker date="1551561852031" expanded="true" signature="105:106" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,12 +69,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roadMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
-                <marker date="1551561257790" expanded="true" signature="2582:2599" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getWeather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -92,6 +111,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>forma</find>
+      <find>googleimagesdo</find>
+      <find>print</find>
+      <find>print(dow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,15 +125,18 @@
         <option value="$PROJECT_DIR$/func.py" />
         <option value="$PROJECT_DIR$/directions.py" />
         <option value="$PROJECT_DIR$/roadMap.py" />
+        <option value="$PROJECT_DIR$/getWeather.py" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/google_images_download.py" />
+        <option value="$PROJECT_DIR$/google_images_download.py" />
         <option value="$PROJECT_DIR$/googleImages.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="69" />
-    <option name="width" value="1400" />
-    <option name="height" value="783" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,21 +150,6 @@
             <path>
               <item name="RoadtripWeather" type="b2602c69:ProjectViewProjectNode" />
               <item name="RoadtripWeather" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadtripWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadtripWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="downloads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadtripWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoadtripWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="downloads" type="462c0819:PsiDirectoryNode" />
-              <item name="East Saint Louis IL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoadtripWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -163,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.roadMap">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="RoadtripWeather" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,6 +237,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RoadtripWeather" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="roadMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RoadtripWeather" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,9 +284,11 @@
       <item itemvalue="Python.func" />
       <item itemvalue="Python.roadMap" />
       <item itemvalue="Python.googleImages" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.roadMap" />
         <item itemvalue="Python.googleImages" />
         <item itemvalue="Python.func" />
@@ -276,15 +309,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="69" width="1400" height="783" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.16098621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.1564482" />
       <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.1564482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23733719" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39518073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,71 +335,118 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/directions.py">
+    <entry file="file://$PROJECT_DIR$/directions.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/__init__.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/__main__.py" />
+    <entry file="file://$PROJECT_DIR$/downloads/baloons/1. 237864.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/ Clifton VA/1. clifton_va_main_st.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/sunny/1. sunny-759.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/sunny Clifton VA/1. 300588741682_2048_1536_wm_alzlademvlfrdvji.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/Clifton VA/1. clifton_va_main_st.jpg" />
+    <entry file="file://$PROJECT_DIR$/func.py" />
+    <entry file="file://$PROJECT_DIR$/downloads/Big Springs NE/1. 250px-big_springs%2c_nebraska_downtown_2.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/Charlottesville VA/1. 65dcf4149d0d7344a922c5c0c2c384b9l-m0xd-w1020_h770_q80.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/East Saint Louis IL/1. collinsville_avenue.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/San Francisco CA/1. genmid.467916_0.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/West Sacramento CA/1. 350px-west_sacramento%2c_california.jpg" />
+    <entry file="file://$PROJECT_DIR$/downloads/Big Springs NE Snow/1. roscoonthewhitetees.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/West Sacramento CA Rain/1. spacexcrew.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/San Francisco CA Rain/1. 8548bd960c455a94a52693f67cc44ae3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/google_images_download.py" />
+    <entry file="file://$PROJECT_DIR$/google_images_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="58" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/__main__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/baloons/1. 237864.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/ Clifton VA/1. clifton_va_main_st.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/sunny/1. sunny-759.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/sunny Clifton VA/1. 300588741682_2048_1536_wm_alzlademvlfrdvji.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/Clifton VA/1. clifton_va_main_st.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/google_images_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/roadMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <marker date="1551561257790" expanded="true" signature="2582:2599" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/East Saint Louis IL/1. collinsville_avenue.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/getWeather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googleImages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
-            <marker date="1551561279913" expanded="true" signature="105:106" ph="..." />
+            <marker date="1551561852031" expanded="true" signature="105:106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Denver CO Rain/1. soggy_colorado_1432142542784_18556901_ver1.0_640_480.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/East Saint Louis IL Clouds/1. streetview?channel=pdp-publicrecord&amp;location=1618+piggott+ave%2c+east+saint+louis%2c+il+62207&amp;size=665x441&amp;client=gme-redfin&amp;signature=rj9lzo6lz7ecu-9iizkd6z8fali=.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Tecumseh KS Clouds/1. 1200px-tecumseh%2c_ks.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Lexington KY Clouds/1. istock-973438738.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Albany NY Snow/1. 920x920.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Bordentown NJ Rain/1. screen-shot-2018-09-26-at-6.53.58-am-768x450.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Charlottesville VA Clear/1. fb0ad161d732b012e2479eafa319e2c1l-m0xd-w1020_h770_q80.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Elkridge MD Clouds/1. 70bfdddb3fcb64601e7bc16c06d5e473l-m0xd-w1020_h770_q80.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Montréal QC Snow/1. neige_montreal.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Saint-Bernard-de-Lacolle QC Snow/1. 16284889.8303a57f.640.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Aachen  Rain/1. 8457108726_0942a99428_b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Berlin Berlin Rain/1. b850f7baad1125a4326d726091ea5cbd086f7c06134f962028261cd7baf91ac8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Hannover NDS Rain/1. 33323003431_409b629126_b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Hensies  Rain/1. hensies.8.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Paris Île-de-France Rain/1. france-paris-ile-de-la-cite-lutece-street-in-the-rain-khab5b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Werder (Havel) BB Rain/1. 0e04809b_z.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

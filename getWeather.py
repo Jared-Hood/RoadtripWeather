@@ -26,7 +26,6 @@ def getWeather(lat, long):
                 data.append(info)
                 max = 0
                 min = 10000000
-        print(data)
         return data
 
     except:
@@ -35,4 +34,3 @@ def getWeather(lat, long):
 
 
 
-getWeather("38.7801346", "-78.3866099")

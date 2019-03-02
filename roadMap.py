@@ -79,17 +79,3 @@ def parseWaypoints(waypoints, days):
     w_p.append(waypoints[-1])
 
     return w_p
-
-start = "University of Virginia, VA"
-end = "Sanfransisco"
-days = 4
-
-x = getDirections(start,end)
-a = parseWaypoints(x,days)
-y, z = reverseGeo(a[1])
-print(a)
-print(y)
-print(z)
-import googleImages
-googleImages.getPics(y)
-#2,4,5
