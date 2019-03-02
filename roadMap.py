@@ -4,6 +4,7 @@ from math import *
 
 API_KEY = 'AIzaSyCCCe0PzBOkTbuOKfXJcZyJhwwVYfaEP8U'
 
+#returns list of all waypoints at each different turn to make
 def getDirections(start,end):
     gmaps = googlemaps.Client(key='AIzaSyCCCe0PzBOkTbuOKfXJcZyJhwwVYfaEP8U')
     now = datetime.now()
@@ -22,25 +23,7 @@ def getDirections(start,end):
             point = (lat,lng)
             all_way_points.append(point)
 
-    w_p = []
-
-    #Parse waypoints based on how far away they are from each other
-    current = all_way_points[0]
-    for i in range(len(all_way_points)-1):
-        if i == 0:
-            w_p.append(all_way_points[0])
-        else:
-            dist = findDistance(all_way_points[i],all_way_points[i+1])
-            dist_temp = findDistance(current,all_way_points[i+1])
-            if dist > 50:
-                w_p.append(all_way_points[i+1])
-                current = all_way_points[i+1]
-            elif dist_temp > 50:
-                w_p.append(all_way_points[i+1])
-                current = all_way_points[i + 1]
-    w_p.append(all_way_points[-1])
-
-    return w_p
+    return all_way_points
 
 #Find the distance between 2 given coordinates
 def findDistance(c1, c2):
@@ -56,23 +39,57 @@ def findDistance(c1, c2):
 def reverseGeo(c):
     gmaps = googlemaps.Client(key='AIzaSyCCCe0PzBOkTbuOKfXJcZyJhwwVYfaEP8U')
     result = gmaps.reverse_geocode(c)
+    town = ''
+    state = ''
 
-    town = result[0]['address_components'][2]['long_name']
-    state = result[0]['address_components'][4]['short_name']
-    country = result[0]['address_components'][5]['short_name']
+    for x in range(len(result[0]['address_components'])):
+        if ( result[0]['address_components'][x]['types'][0] == 'locality'):
+            town = result[0]['address_components'][x]['long_name']
+        if ( result[0]['address_components'][x]['types'][0] == 'administrative_area_level_1'):
+            state = result[0]['address_components'][x]['short_name']
+
     full = result[0]['formatted_address']
 
-    town_state = town + ", " + state
+    town_state = town + " " + state
 
     return town_state, full
 
+
+#Take waypoints and divide by the number of days
+#Each waypoint will be a different day
+def parseWaypoints(waypoints, days):
+
+    total_distance = findDistance(waypoints[0],waypoints[-1])
+    w_p = []
+
+    #Parse waypoints based on how far away they are from each other
+    current = waypoints[0]
+    for i in range(len(waypoints)-1):
+        if i == 0:
+            w_p.append(waypoints[0])
+        else:
+            dist = findDistance(waypoints[i],waypoints[i+1])
+            dist_temp = findDistance(current,waypoints[i+1])
+            if dist > total_distance // days:
+                w_p.append(waypoints[i+1])
+                current = waypoints[i+1]
+            elif dist_temp > total_distance // days:
+                w_p.append(waypoints[i+1])
+                current = waypoints[i + 1]
+    w_p.append(waypoints[-1])
+
+    return w_p
+
 start = "University of Virginia, VA"
-end = "Clifton, VA"
+end = "Sanfransisco"
+days = 4
 
 x = getDirections(start,end)
-y, z = reverseGeo(x[2])
+a = parseWaypoints(x,days)
+y, z = reverseGeo(a[1])
+print(a)
 print(y)
 print(z)
-print(x)
-
+import googleImages
+googleImages.getPics(y)
 #2,4,5
