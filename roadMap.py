@@ -65,17 +65,15 @@ def parseWaypoints(waypoints, days):
     #Parse waypoints based on how far away they are from each other
     current = waypoints[0]
     for i in range(len(waypoints)-1):
-        if i == 0:
-            w_p.append(waypoints[0])
-        else:
-            dist = findDistance(waypoints[i],waypoints[i+1])
-            dist_temp = findDistance(current,waypoints[i+1])
-            if dist > total_distance // days:
-                w_p.append(waypoints[i+1])
-                current = waypoints[i+1]
-            elif dist_temp > total_distance // days:
-                w_p.append(waypoints[i+1])
-                current = waypoints[i + 1]
+        dist = findDistance(waypoints[i],waypoints[i+1])
+        dist_temp = findDistance(current,waypoints[i+1])
+        if dist > total_distance // days:
+            w_p.append(waypoints[i+1])
+            current = waypoints[i+1]
+        elif dist_temp > total_distance // days:
+            w_p.append(waypoints[i+1])
+            current = waypoints[i + 1]
+
     w_p.append(waypoints[-1])
 
     return w_p

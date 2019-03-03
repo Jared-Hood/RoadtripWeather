@@ -1,64 +1,136 @@
 from tkinter import *
-from datetime import *
+import googleImages
+import roadMap
+import getWeather
+from PIL import Image, ImageTk
+import glob
 
-global place1
-global place2
-global daysBetween
-global destinations
+def gui():
 
-m = Tk()
-frame = Frame(m)
-frame.grid(row=0)
-midFrame = Frame(m)
-midFrame.grid(row=1)
-botFrame = Frame(m)
-botFrame.grid(row=2)
+    '''
+    import Tkinter as tk
 
-Label(frame, text = 'Road Tripper').grid(row=0, padx=200)
-#Label(frame, text = '"Finding the Best Time to Vacation Made Easy"').grid(row=1)
+def create_window():
+    window = tk.Toplevel(root)
 
-Label(midFrame, text = 'Start Location').grid(row=0,column=0)
-startPlace = Entry(midFrame)
-startPlace.grid(row=1, column=0, padx = 10,pady=5)
-place1 = startPlace.get()
-endPlace = Entry(midFrame)
-endPlace.grid(row=1, column=1, padx = 10)
-place2 = endPlace.get()
-Label(midFrame, text = 'Destination').grid(row=0, column=1)
+root = tk.Tk()
+b = tk.Button(root, text="Create new window", command=create_window)
+b.pack()
 
-Label(midFrame, text = 'Start Date').grid(row=2, column=0)
-startDate = Entry(midFrame)
-startDate.insert(0, 'ex. 1/12/2019')
-startDate.grid(row=3, column=0, padx=10)
+root.mainloop()
+    :return:
+    '''
+
+    def enter():
+
+        start = e1.get()
+        end = e2.get()
+        days = int(e3.get())
+        master.destroy()
+
+        window = Tk()
+        window.title("Your Roadtrip Weather Slideshow")
+
+        directions = roadMap.getDirections(start, end)
+        parsed_directions = roadMap.parseWaypoints(directions, days)
+        city_state, full_address = roadMap.reverseGeo(parsed_directions[1])
+
+        places = []
+        im_list = []
+
+        iter = 1
+        for i in range(len(parsed_directions)):
+            lat = str(parsed_directions[i][0])
+            long = str(parsed_directions[i][1])
+            currentWeather = getWeather.getWeather(lat, long)[iter][2]
+
+            city_state, full_address = roadMap.reverseGeo(parsed_directions[i])
+            googleImages.getPics(city_state + " " + currentWeather + " day")
+            iter += 1
+
+            print(currentWeather + ": " + city_state)
+
+            d = iter - 1
+            w = currentWeather
+            i_p = city_state + " " + currentWeather + " day"
+            l = city_state
+            places.append((d,w,i_p,l))
+            size = 150,150
+
+            for filename in glob.glob('/Users/jaredhood/Documents/RoadtripWeather/downloads/' + i_p +'/*.jpg'):
+                im=Image.open(filename)
+                im.thumbnail(size, Image.ANTIALIAS)
+                im_list.append(im)
+
+        dayL = Label(window, text="Day: ")
+        dayL.grid(row=1, column=0)
+        LocationL = Label(window, text="Location: ")
+        LocationL.grid(row=2, column=0)
+        weatherL = Label(window, text="Weather: ")
+        weatherL.grid(row=3, column=0)
+        picL = Label(window, text="Live Look: ")
+        picL.grid(row=4, column=0)
+
+        '''
+        from PIL import Image
+import glob
+image_list = []
+for filename in glob.glob('yourpath/*.gif'): #assuming gif
+    im=Image.open(filename)
+    image_list.append(im)'''
+
+        z = 1
+        for i in places:
+            day = Label(window,text=i[0])
+            day.grid(row = 1, column=z)
+
+            location = Label(window, text=i[3])
+            location.grid(row=2, column=z)
+
+            weather = Label(window, text=i[1])
+            weather.grid(row=3, column=z)
+
+            img = im_list[z-1]
+            photo = ImageTk.PhotoImage(img)
+            label = Label(image=photo)
+            label.image = photo
+            label.grid(row=4, column=z)
+
+            z+= 1
 
 
-endDate = Entry(midFrame)
-endDate.grid(row=3, column = 1,padx=10,pady=5)
-Label(midFrame, text = 'End Date').grid(row=2, column = 1)
-
-#Label(botFrame, text = 'Destinations along the way?').grid(row=0,column=0,pady=5)
-#numPlaces = Spinbox(botFrame, from_ = 0, to =10,width=5).grid(row=0,column=1,padx=5)
-#destinations = numPlaces.get()
-
-def getDates():
-    date1 = startDate.get()
-    date_array = date1.split('/')
-    date_date = date(int(date_array[2]), int(date_array[1]), int(date_array[0]))
-
-    date2 = endDate.get()
-    date_array1 = date2.split('/')
-    date_date1 = date(int(date_array1[2]), int(date_array1[1]), int(date_array1[0]))
-
-    global daysBetween
-    daysBetween = date_date1 - date_date
-
-    m.destroy()
 
 
-Button(botFrame, text='Next', width=10, command=getDates).grid(row=1)
+        window.mainloop()
 
-m.mainloop()
 
-m1 = Tk()
+    master = Tk()
 
-m1.mainloop()
+    master.title("Roadtrip Weather Planner")
+
+    Label(master, text='Start').grid(row=0)
+    Label(master, text='Destination').grid(row=1)
+    Label(master, text='Number of Days').grid(row=2)
+
+    e1 = Entry(master)
+    e1.grid(row=0, column=1)
+
+    e2 = Entry(master)
+    e2.grid(row=1, column=1)
+
+    e3 = Entry(master)
+    e3.grid(row=2, column=1)
+
+    Button(master, text='Enter',command=enter).grid(row=3, column=0, sticky=W,pady=10)
+    Button(master, text='Quit', command=master.quit).grid(row=3, column=1, sticky=W, pady=10)
+
+    master.mainloop()
+
+    #start of slideshow pane
+
+
+
+
+
+
+gui()
