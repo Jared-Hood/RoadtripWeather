@@ -3,6 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="2317f29f-bb64-4b69-bf9d-915a2cdb8c51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Albuquerque NM Clear day/1. downtown-albuquerque-new-mexico-view-of-downtown-offices-and-the-volcanoes-of-petroglyph-national-monument-on-a-clear-spring-day-mn5pr1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Albuquerque NM Clouds day/1. 20180831_072432.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Arlington TN Clouds day/1. gopr3738.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Arlington TN Clouds day/1. ls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Arvada CO Snow day/1. dufzn9au0aaiiaa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Ash Fork AZ Rain day/1. n041-042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Barstow CA Clear day/1. o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Des Moines IA Clear day/1. best-places-to-live-2018-37-west-des-moines-iowa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Dyersburg TN Rain day/1. 31lava4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Fort Chiswell VA Clear day/1. isuw8he22cy5ms0000000000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Hacker Valley WV Snow day/1. de2693cfcb9f86780c4e87ea1528161d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Harrisburg PA Clear day/1. l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Independence KS Clear day/1. ismmryx78a0oml0000000000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Joplin MO Clear day/1. 538204_10150889103913818_819173817_9501792_1825576801_n-e1337677408566.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Key West FL Clear day/1. p-beach--lc_55_660x440_201506071025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Lincoln NE Clear day/1. fixedw_large_4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Little Rock AR Rain day/1. agri103118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Louisville KY Clear day/1. the-illuminated-skyline-of-louisville-kentucky-reflects-off-the-ohio-ecank7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Lubbock TX Clear day/1. lubbockskyline2013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Nashville TN Clouds day/1. 35945213092_d28e7d3a49_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Nashville TN Snow day/1. 01snow2003-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/New York NY Clear day/1. nyc-totr-an-absolute.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/New York NY Clouds day/1. 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/North Jackson OH Snow day/1. photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Ogden UT Snow day/1. nordic-valley-lift_28aa424b5e06ed90b550b72f00feb4d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Oklahoma City OK Clouds day/1. 90924511-skyline-of-oklahoma-city-ok-during-the-day-with-cloudly-sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Sanger CA Rain day/1. 8303337.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Tulsa OK Clear day/1. tulsa-popup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Wildwood FL Clear day/1. o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Willow Springs MO Clear day/1. ls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Winters TX Clear day/1. ls.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roadMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/roadMap.py" afterDir="false" />
@@ -27,25 +58,25 @@
         <counts>
           <entry key="gif" value="2" />
           <entry key="jpeg" value="1" />
-          <entry key="jpg" value="56" />
-          <entry key="png" value="1" />
+          <entry key="jpg" value="58" />
+          <entry key="png" value="2" />
           <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="60" />
+          <entry key="Image" value="63" />
           <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6345" />
+          <entry key="py" value="6514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6345" />
+          <entry key="Python" value="6514" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roadMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="179">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -79,11 +110,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="73" column="11" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+            <state relative-caret-position="47">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1551574230270" expanded="true" signature="2784:3396" ph="..." />
+                <marker date="1551575981380" expanded="true" signature="3023:3630" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,10 +123,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+                <marker date="1551574512478" expanded="true" signature="77:82" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,9 +171,9 @@
         <option value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/google_images_download/google_images_download.py" />
         <option value="$PROJECT_DIR$/google_images_download.py" />
         <option value="$PROJECT_DIR$/googleImages.py" />
-        <option value="$PROJECT_DIR$/roadMap.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/o.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/roadMap.py" />
         <option value="$PROJECT_DIR$/gui.py" />
       </list>
     </option>
@@ -346,16 +378,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="12" y="23" width="1440" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.32205778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.25158563" />
       <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.1564482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26558265" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32384825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,9 +404,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/downloads/Charlottesville VA/1. 65dcf4149d0d7344a922c5c0c2c384b9l-m0xd-w1020_h770_q80.jpg" />
-    <entry file="file://$PROJECT_DIR$/downloads/East Saint Louis IL/1. collinsville_avenue.jpg" />
-    <entry file="file://$PROJECT_DIR$/downloads/San Francisco CA/1. genmid.467916_0.jpg" />
     <entry file="file://$PROJECT_DIR$/downloads/West Sacramento CA/1. 350px-west_sacramento%2c_california.jpg" />
     <entry file="file://$PROJECT_DIR$/downloads/Big Springs NE Snow/1. roscoonthewhitetees.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -499,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roadMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/downloads/ Zac. Clouds day/1. maxresdefault.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -517,16 +536,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/downloads/Independence KS Clear day/1. ismmryx78a0oml0000000000.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googleImages.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,13 +550,43 @@
     <entry file="file://$PROJECT_DIR$/o.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/roadMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/Naples FL Clear day/1. trianon_naples_places1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1551574512478" expanded="true" signature="77:82" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/West Memphis AR Clouds day/1. ?media_id=197611907349080.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/New Orleans LA Clear day/1. wide-shot-aerial-bridge-and-river-on-clear-day-new-orleans-louisiana-video-id138697320?s=640x640.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="73" column="11" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+        <state relative-caret-position="47">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1551574230270" expanded="true" signature="2784:3396" ph="..." />
+            <marker date="1551575981380" expanded="true" signature="3023:3630" ph="..." />
           </folding>
         </state>
       </provider>

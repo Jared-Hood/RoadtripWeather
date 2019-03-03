@@ -7,20 +7,6 @@ import glob
 
 def gui():
 
-    '''
-    import Tkinter as tk
-
-def create_window():
-    window = tk.Toplevel(root)
-
-root = tk.Tk()
-b = tk.Button(root, text="Create new window", command=create_window)
-b.pack()
-
-root.mainloop()
-    :return:
-    '''
-
     def enter():
 
         start = e1.get()
@@ -34,6 +20,8 @@ root.mainloop()
         directions = roadMap.getDirections(start, end)
         parsed_directions = roadMap.parseWaypoints(directions, days)
         city_state, full_address = roadMap.reverseGeo(parsed_directions[1])
+
+        print(parsed_directions)
 
         places = []
         im_list = []
@@ -55,12 +43,23 @@ root.mainloop()
             i_p = city_state + " " + currentWeather + " day"
             l = city_state
             places.append((d,w,i_p,l))
-            size = 150,150
+            size = 250,250
 
             for filename in glob.glob('/Users/jaredhood/Documents/RoadtripWeather/downloads/' + i_p +'/*.jpg'):
                 im=Image.open(filename)
                 im.thumbnail(size, Image.ANTIALIAS)
                 im_list.append(im)
+
+            for filename in glob.glob('/Users/jaredhood/Documents/RoadtripWeather/downloads/' + i_p +'/*.png'):
+                im=Image.open(filename)
+                im.thumbnail(size, Image.ANTIALIAS)
+                im_list.append(im)
+
+            for filename in glob.glob('/Users/jaredhood/Documents/RoadtripWeather/downloads/' + i_p +'/*.jpeg'):
+                im=Image.open(filename)
+                im.thumbnail(size, Image.ANTIALIAS)
+                im_list.append(im)
+
 
         dayL = Label(window, text="Day: ")
         dayL.grid(row=1, column=0)
@@ -71,15 +70,9 @@ root.mainloop()
         picL = Label(window, text="Live Look: ")
         picL.grid(row=4, column=0)
 
-        '''
-        from PIL import Image
-import glob
-image_list = []
-for filename in glob.glob('yourpath/*.gif'): #assuming gif
-    im=Image.open(filename)
-    image_list.append(im)'''
 
         z = 1
+        x = 0
         for i in places:
             day = Label(window,text=i[0])
             day.grid(row = 1, column=z)
@@ -90,16 +83,16 @@ for filename in glob.glob('yourpath/*.gif'): #assuming gif
             weather = Label(window, text=i[1])
             weather.grid(row=3, column=z)
 
-            img = im_list[z-1]
+            img = im_list[x]
             photo = ImageTk.PhotoImage(img)
             label = Label(image=photo)
             label.image = photo
             label.grid(row=4, column=z)
 
-            z+= 1
+            z += 1
+            x += 1
 
-
-
+        Button(window, text='Quit', command=window.quit).grid(row=5, column=1, sticky=W, pady=10)
 
         window.mainloop()
 
@@ -127,10 +120,5 @@ for filename in glob.glob('yourpath/*.gif'): #assuming gif
     master.mainloop()
 
     #start of slideshow pane
-
-
-
-
-
 
 gui()
