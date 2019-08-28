@@ -2,11 +2,11 @@ import googlemaps
 from datetime import datetime
 from math import *
 
-API_KEY = 'AIzaSyCCCe0PzBOkTbuOKfXJcZyJhwwVYfaEP8U'
+API_KEY = ''
 
 #returns list of all waypoints at each different turn to make
 def getDirections(start,end):
-    gmaps = googlemaps.Client(key='AIzaSyCCCe0PzBOkTbuOKfXJcZyJhwwVYfaEP8U')
+    gmaps = googlemaps.Client(key=API_key)
     now = datetime.now()
 
     directions = gmaps.directions(start,end)
