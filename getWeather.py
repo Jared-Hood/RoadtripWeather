@@ -1,7 +1,8 @@
 import requests
 def getWeather(lat, long):
     try:
-        api_address1 = 'http://api.openweathermap.org/data/2.5/forecast?appid=3529eeb526092717a618e922c6b3d4bd&lat='
+        API_key = "key"
+        api_address1 = 'http://api.openweathermap.org/data/2.5/forecast?appid=' + API_key
         url = api_address1 + lat + '&lon=' + long
         data = []
         json_data = requests.get(url).json()
